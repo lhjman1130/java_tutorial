@@ -13,15 +13,16 @@ public class Java0410_Test4 {
 		System.out.print("size = ");
 		size = sc.nextInt();
 		m = (size / 2) + 1;
-		for (i = 0; i < m; i++) {           //줄 수
+		for (i = 0; i < m; i++) { // 줄 수
 			ch = ' ';
-			for (j = 0; j <= m + i; j++) {   //*개수
+			for (j = 0; j <= m + i; j++) { // i 줄에 출력될  ch개수
 				if (j == m - 1 - i) {
 					ch = '*';
-					
+
 				}
 				System.out.print(ch);
 			}
+			System.out.println();
 			System.out.println();
 		}
 
