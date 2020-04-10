@@ -3,7 +3,7 @@ package p0410;
 //////////삼각형 만들기.
 import java.util.Scanner;
 
-public class Java0410_Test4 {
+public class Java0410_6Test4 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
