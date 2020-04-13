@@ -7,8 +7,7 @@ public class Menu_pica {
 	
 	void run(Scanner sc){
 		
-		Scanner sc = new Scanner(System.in);
-		
+
 		
 		int menu;
 		boolean flag = true;

@@ -5,8 +5,9 @@ public class Picachu {
 	int hp;
 	int exp;
 	int level;
+	
 
-	void setInfo() {
+	Picachu() {
 		name = "ÇÇÄ«Ãß";
 		hp = 30;
 		exp = 0;

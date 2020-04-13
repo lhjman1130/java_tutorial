@@ -23,7 +23,7 @@ public class Dao {
 	int getIdx(String name) { // 이름으로 배열에서 검색해서 그 위치를 반환
 		for(int i=0; i<cnt; i++){                   //데이터 개수와 방의 개수가 같은지는 모른다.
 			if(name.equals(dates[i].name)){
-				return i;
+				return i;    // 리턴은 무조건 현재의 함수가 종료.
 			}
 		}
 		return -1;
@@ -42,7 +42,7 @@ public class Dao {
     //이름으로 위치를 찾아서 새 값으로 바꾸면 된다. 
 		int idx = getIdx(m.name);
 		if(idx<0){
-			System.out.println("업는 이름");
+			System.out.println("없는 이름");
 			return;
 		}
 		dates[idx].tel = m.tel;        //새 전화번호
