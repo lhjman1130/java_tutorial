@@ -7,7 +7,7 @@ public class Picachu {
 	int level;
 	
 
-	Picachu() {
+	public Picachu() {
 		name = "ÇÇÄ«Ãß";
 		hp = 30;
 		exp = 0;
